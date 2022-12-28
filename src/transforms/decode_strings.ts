@@ -167,13 +167,12 @@ function doShit(ast: parser.ParseResult<t.File>, name: string) {
         if (path.node.init.name === name) {
           if (t.isIdentifier(path.node.id)) {
             const variableName = path.node.id.name;
+            doShit(ast, variableName);
             path.scope
               .getBinding(variableName)
               ?.referencePaths.forEach((ref) => {
                 if (ref.parentPath) {
                   //   console.log(generate(ref.parentPath.node).code);
-                  // case if proxy
-                  doShit(ast, variableName);
                   // case if function call
                   if (t.isCallExpression(ref.parentPath.node)) {
                     if (t.isNumericLiteral(ref.parentPath.node.arguments[0])) {

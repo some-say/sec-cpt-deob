@@ -1,11 +1,11 @@
 var ak_chlge = function () {
   var _0x5149a4 = _0x1e5b,
-    _0x1c6a14,
-    _0x50cfb1,
-    _0x84b94c,
-    _0x34f884,
-    _0x3a3d34,
-    _0x328579;
+      _0x1c6a14,
+      _0x50cfb1,
+      _0x84b94c,
+      _0x34f884,
+      _0x3a3d34,
+      _0x328579;
 
   function _0x5432c0(_0x59ff0b, _0xa3815d, _0xf88cbc) {
     var _0x3f4947 = _0x1e5b;
@@ -13,7 +13,7 @@ var ak_chlge = function () {
     try {
       var _0x4e936b = _0x86dcfa(_0xa3815d);
 
-      if (_0xf88cbc) _0x1c6a81(_0x59ff0b, _0x4e936b); else {
+      if (_0xf88cbc) _0x1c6a81(_0x59ff0b, _0x4e936b);else {
         if ("blob" == _0x59ff0b.responseType) {
           var _0x2227f8 = new FileReader();
 
@@ -30,7 +30,7 @@ var ak_chlge = function () {
           _0x1c6a81(JSON.parse(_0x59ff0b.responseText), _0x4e936b);
         }
       }
-    } catch (_0x239ba4) { }
+    } catch (_0x239ba4) {}
   }
 
   function _0x1c6a81(_0x344ddc, _0x55a4e9) {
@@ -40,7 +40,7 @@ var ak_chlge = function () {
       for (var _0x440cba = document.getElementById("sec-container"); _0x440cba.firstChild;) _0x440cba.removeChild(_0x440cba.firstChild);
 
       var _0x10407a = document.createElement("div"),
-        _0x37e482 = document.createElement('iframe');
+          _0x37e482 = document.createElement('iframe');
 
       _0x10407a.setAttribute('id', "sec-if-container")
 
@@ -78,7 +78,7 @@ var ak_chlge = function () {
         _0x440cba.appendChild(_0x37e482);
       } else {
         var _0x4a1602 = document.createElement("div"),
-          _0x2cb076 = document.createElement("iframe");
+            _0x2cb076 = document.createElement("iframe");
 
         _0x4a1602.setAttribute('id', "sec-text-container")
 
@@ -125,15 +125,15 @@ var ak_chlge = function () {
 
   function _0x504cb0(_0x147177) {
     var _0x17f1e9 = _0x1e5b,
-      _0x9c181b = false;
+        _0x9c181b = false;
     return '' !== _0x147177 && (_0x9c181b = _0x147177.split('/')[_0x147177.split('/').length - 0x1] !== window.location.hostname), _0x9c181b;
   }
 
   function _0x158951(_0xe34fae, _0x53285b) {
     var _0x39f8b4 = _0x1e5b,
-      _0x4910cf,
-      _0x846713 = document.getElementById("sec-cpt-if"),
-      _0x1ef5cf = (_0x846713.getAttribute("data-hostname") ? _0x846713.getAttribute("data-hostname") : '') + "/_sec/cp_challenge/verify";
+        _0x4910cf,
+        _0x846713 = document.getElementById("sec-cpt-if"),
+        _0x1ef5cf = (_0x846713.getAttribute("data-hostname") ? _0x846713.getAttribute("data-hostname") : '') + "/_sec/cp_challenge/verify";
 
     (_0x4910cf = new XMLHttpRequest()).onreadystatechange = function () {
       var _0x1e3dba = _0x39f8b4;
@@ -172,7 +172,7 @@ var ak_chlge = function () {
 
   return _0x1c6a14 = XMLHttpRequest.prototype.open, XMLHttpRequest.prototype.open = function () {
     var _0xac5529 = _0x5149a4,
-      _0x4e122a;
+        _0x4e122a;
 
     url = arguments[0x1]
     this.addEventListener("readystatechange", (_0x4e122a = url, function () {
@@ -198,13 +198,13 @@ var ak_chlge = function () {
             _0x5432c0(_0xde3937, _0x4d6bf9, true);
           }), _0x5ea60f;
         }));
-      } catch (_0x9d89e6) { }
+      } catch (_0x9d89e6) {}
 
       var _0x4d6bf9;
     }(_0x4ba4dd);
   }), _0x34f884 = window, _0x3a3d34 = "message", _0x328579 = function (_0x4450e0) {
     var _0x1dbe04 = _0x5149a4,
-      _0xefb0d3 = {};
+        _0xefb0d3 = {};
 
     try {
       _0xefb0d3 = JSON.parse(_0x4450e0.data);
